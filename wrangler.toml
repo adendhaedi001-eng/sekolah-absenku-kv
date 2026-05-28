@@ -1,0 +1,11 @@
+name = "sekolah-absenku-kv"
+compatibility_date = "2026-05-28"
+pages_build_output_dir = "."
+
+# Worker KV binding.
+# Setelah membuat KV Namespace di Cloudflare, ganti id di bawah.
+# Binding name utama wajib: SEKOLAH_ABSENKU_KV
+[[kv_namespaces]]
+binding = "SEKOLAH_ABSENKU_KV"
+id = "995cef6166404242bd5e4ab2f45e2ba7"
+# preview_id = "GANTI_DENGAN_PREVIEW_ID_JIKA_MEMAKAI_WRANGLER_DEV"
